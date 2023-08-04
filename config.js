@@ -3,14 +3,5 @@ window.Config = {
   ApiKeys: ['ur1436354-111ee1bc6757a71a047da5da',],
   CountDays: 30,
   ShowLink: false,
-  Navi: [
-    {
-      text: 'NLRDev 主页',
-      url: 'https://www.nlrdev.top/'
-    },
-    {
-      text: '加入社群',
-      url: 'https://join.nlrdev.top/'
-    }
-  ],
+  Navi: [],
 };
