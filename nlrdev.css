@@ -1,5 +1,8 @@
-
-body{margin:130px 0;user-select:none;}
+@font-face{font-family:font;src:url('https://asset.simsoft.top/products/fonts/mi.woff2');}
+html{background:#fafafa;height:100%;font-family:font,寰蒋闆呴粦;overflow:hidden;}
+body{user-select:none;margin:0;overflow:hidden;}
+*{box-sizing:border-box;scrollbar-width:none;}
+::-webkit-scrollbar{display:none;}
 #header{display:none;}
 
 header{background:rgba(255,255,255,.9);backdrop-filter:blur(20px);transition:background .2s,box-shadow .2s,top .2s;padding:10px;font-size:0;position:fixed;top:0;width:100%;z-index:2;box-shadow:0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);text-align:center;}
