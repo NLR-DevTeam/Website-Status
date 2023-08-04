@@ -25,3 +25,4 @@ main .titleBanner img{height:270px;padding:10px 5vw;float:left;}
 
 #footer{display:none;}
 center{margin-top:30px;opacity:.8;}
+center a{text-decoration:underline;}
