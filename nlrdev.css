@@ -1,5 +1,5 @@
 @font-face{font-family:font;src:url('https://asset.simsoft.top/products/fonts/mi.woff2');}
-html{background:#fafafa;height:100%;font-family:font,寰蒋闆呴粦;overflow:hidden;}
+html{background:#fafafa;height:100%;font-family:font,微软雅黑;overflow:hidden;}
 body{user-select:none;margin:0;overflow:hidden;}
 *{box-sizing:border-box;scrollbar-width:none;}
 ::-webkit-scrollbar{display:none;}
