@@ -19,5 +19,6 @@ main .titleBanner img{height:270px;padding:10px 5vw;float:left;}
     main .titleBanner .title div{font-size:3em;margin-bottom:5px;}
 }
 
-.container{padding:0;}
-#uptime{background:white;position:relative;padding:10px;border-radius:20px;box-shadow:0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);margin:20px 0;}
+#app .container{padding:0;}
+#app .container #uptime{background:white;position:relative;padding:10px;border-radius:20px;box-shadow:0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);margin:20px 0;}
+#footer{display:none;}
