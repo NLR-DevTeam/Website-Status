@@ -18,3 +18,6 @@ main .titleBanner img{height:270px;padding:10px 5vw;float:left;}
     main .titleBanner .title{top:unset;bottom:30px;left:0;font-size:.8rem;width:100%;margin:0;}
     main .titleBanner .title div{font-size:3em;margin-bottom:5px;}
 }
+
+.container{padding:0;}
+#uptime{background:white;position:relative;padding:10px;border-radius:20px;box-shadow:0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);margin:20px 0;}
