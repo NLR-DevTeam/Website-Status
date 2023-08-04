@@ -1,4 +1,17 @@
 
 body{margin:130px 0;user-select:none;}
-header{display:none;}
+#header{display:none;}
 
+header{background:rgba(255,255,255,.9);backdrop-filter:blur(20px);transition:background .2s,box-shadow .2s,top .2s;padding:10px;font-size:0;position:fixed;top:0;width:100%;z-index:2;box-shadow:0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);text-align:center;}
+header img{width:300px;height:63px;display:inline-block;vertical-align:middle;object-fit:contain;}
+main{position:fixed;top:0;left:0;right:0;margin:auto;width:100vw;max-width:900px;height:100%;overflow-y:scroll;overflow-x:hidden;z-index:1;padding:110px 10px 50px 10px;}
+main .titleBanner{border-radius:15px;position:relative;height:270px;box-shadow:0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);background:linear-gradient(135deg,#eefff3,#d3ffe0);}
+main .titleBanner .title{position:absolute;top:0;bottom:0;right:0;margin:auto;text-align:center;font-weight:bold;height:fit-content;margin-right:10vw;}
+main .titleBanner .title div{font-size:4em;}
+main .titleBanner .title span{font-size:1.2em;opacity:.6;margin-top:-10px;display:block;}
+main .titleBanner img{height:270px;padding:10px 5vw;float:left;}
+@media screen and (max-width:800px){
+    main .titleBanner img{height:180px;width:100%;margin:0;object-fit:contain;}
+    main .titleBanner .title{top:unset;bottom:30px;left:0;font-size:.8rem;width:100%;margin:0;}
+    main .titleBanner .title div{font-size:3em;margin-bottom:5px;}
+}
