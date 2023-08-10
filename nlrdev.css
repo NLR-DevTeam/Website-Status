@@ -28,6 +28,7 @@ main .titleBanner img{height:270px;padding:10px 5vw;float:left;}
 .timeline{border-radius:10px;overflow:hidden;}
 .summary span:nth-child(1), .summary span:nth-child(3){white-space:nowrap;padding:2px 5px;background:#F5F6F6;border-radius:3px;}
 .summary span:nth-child(2){white-space:nowrap;padding:2px 5px;overflow:hidden;text-overflow:ellipsis;}
+@media screen and (max-width: 500px){.site{zoom:.8;}}
 
 #footer{display:none;}
 center{margin-top:30px;opacity:.8;}
