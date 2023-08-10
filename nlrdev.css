@@ -22,9 +22,12 @@ main .titleBanner img{height:270px;padding:10px 5vw;float:left;}
 #app .container{padding:0;}
 #app .container #uptime{background:white;position:relative;padding:10px;border-radius:15px;box-shadow:0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);margin:20px 0;}
 #uptime .site .timeline i.ok{background-color:#0fd246;}
+#uptime .site .timeline i.down{background-color:orange;}
 #uptime .site .timeline i.none{background-color:#f6f6f6;}
 #uptime .site .timeline i{border-radius:0;margin:0;height:20px;}
 .timeline{border-radius:10px;overflow:hidden;}
+.summary span:nth-child(1), .summary span:nth-child(3){white-space:nowrap;padding:2px 5px;background:#F5F6F6;border-radius:3px;}
+.summary span:nth-child(2){white-space:nowrap;padding:2px 5px;overflow:hidden;text-overflow:ellipsis;}
 
 #footer{display:none;}
 center{margin-top:30px;opacity:.8;}
